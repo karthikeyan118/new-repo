@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="outer">
+        <div class="form--Heading">
+          <h4>Register Account</h4>
+          <p>Get your free minible account now</p>
+        </div>
+        <form
+          class="form--register"
+          method="post"
+          action=""
+          enctype="multipart/form-data"
+        >
+          <p class="user__detail">Username</p>
+          <input type="text" class="form__field" placeholder="Enter username" />
+          <p class="user__detail">Email</p>
+          <input type="email" class="form__field" placeholder="Enter E-mail" />
+          <p class="user__detail">Password</p>
+          <input
+            type="password"
+            class="form__field"
+            placeholder="Enter password"
+          />
+          <p class="user__detail">please confirm your password</p>
+          <input
+            type="password"
+            class="form__field"
+            placeholder="Re-Enter password"
+          />
+          <div class="accept__condition">
+            <input type="checkbox" class="check" />
+            <p>I accept terms and condition</p>
+          </div>
+          <div class="submit">
+            <input type="submit" class="btn" name="Register" value="Register" />
+          </div>
+        </form>
+        <div class="last-set">
+          <p class="another_acc">Already a member?</p>
+          <a href="#" class="link">Login</a>
+        </div>
+      </div>
+    </div>
+    <p class="company">&copy 2022 minible crafted by themesland</p>
+  </body>
+</html>
